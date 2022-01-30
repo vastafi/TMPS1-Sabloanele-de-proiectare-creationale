@@ -14,7 +14,7 @@ public class Music implements PrototypeCapable {
 
     @Override
     public Music clone() throws CloneNotSupportedException {
-        System.out.println("Cloning music object ... ");
+        System.out.println("Cloning Music object ... ");
         return (Music) super.clone();
     }
 
