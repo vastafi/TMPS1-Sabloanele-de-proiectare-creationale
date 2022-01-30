@@ -1,8 +1,6 @@
 package TestSingleton;
 
 public class Singleton {
-    public Singleton() {
-    }
 
     public static void main(String[] args) {
         User user  = User.getInstance(1,"Camencov andrei","31-08-1972","camencov.andreiAdm@gmail.com");
