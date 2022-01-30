@@ -1,7 +1,10 @@
 package TestSingleton;
 
 public class User {
+
     private static User userInstance;
+
+    //All attributes
         private int id;
         private String fullNameOfUser;
         private String dateOfBirth;
