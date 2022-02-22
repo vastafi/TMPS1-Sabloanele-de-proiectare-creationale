@@ -1,4 +1,4 @@
-package TestAbstractMethod;
+package TestAbstractFactory;
 
 interface AddressFactory{
     public Address createAddress();

@@ -1,4 +1,4 @@
-package TestAbstractMethod;
+package TestAbstractFactory;
 
 class TemporaryAddressFactory implements AddressFactory{
     public Address createAddress(){

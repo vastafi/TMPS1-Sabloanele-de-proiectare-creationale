@@ -1,4 +1,4 @@
-package TestAbstractMethod;
+package TestAbstractFactory;
 
 abstract class Address {
     private int id;

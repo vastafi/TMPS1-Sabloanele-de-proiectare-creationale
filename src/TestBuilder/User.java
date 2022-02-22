@@ -2,11 +2,8 @@ package TestBuilder;
 
 public class User
 {
-    //All final attributes
-    // required attributes
-    private final String firstName; // required
+    private final String firstName;
     private final String lastName;
-    // optional attributes
     private final int age;
     private final String phone;
     private final String address;
@@ -19,7 +16,6 @@ public class User
         this.address = builder.address;
     }
 
-    //All getter, and NO setter to provde immutability
     public String getFirstName() {
         return firstName;
     }
@@ -65,14 +61,13 @@ public class User
             this.address = address;
             return this;
         }
-        // Return the finally constructed User object
+
         public User build() {
             User user =  new User(this);
             validateUserObject(user);
             return user;
         }
         private void validateUserObject(User user) {
-            //basic validations for age
 
             if(user.age <= 0){
             //    System.out.println("Enter the correct age");

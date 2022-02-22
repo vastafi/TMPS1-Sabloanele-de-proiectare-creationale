@@ -1,4 +1,4 @@
-package TestAbstractMethod;
+package TestAbstractFactory;
 
 class HomeAddressFactory implements AddressFactory{
     public Address createAddress(){

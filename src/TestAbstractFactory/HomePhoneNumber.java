@@ -1,7 +1,7 @@
-package TestAbstractMethod;
+package TestAbstractFactory;
 
-class TemporaryPhoneNumber extends PhoneNumber{
-    private static final String COUNTRY_CODE = "33";
+class HomePhoneNumber extends PhoneNumber{
+    private static final String COUNTRY_CODE = "49";
     private static final int NUMBER_LENGTH = 9;
 
     public String getCountryCode(){ return COUNTRY_CODE; }

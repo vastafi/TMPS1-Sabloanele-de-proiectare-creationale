@@ -1,6 +1,6 @@
-package TestAbstractMethod;
+package TestAbstractFactory;
 
-public class AbstractMethod {
+public class AbstractFactory {
         public static void main(String [] arguments){
             System.out.println("------------------------------------");
             AddressFactory homeAddressFactory = new HomeAddressFactory();
